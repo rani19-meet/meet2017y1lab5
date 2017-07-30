@@ -1,8 +1,18 @@
+
+
+
+
+####################################
+#writing the function
+########################################
 def add_numbers(start, end):
+    # this function should add
+    # all the numbers from start
+    # to end, including both
+    # write your code here
+    c = 0
+    for n in range(start , end + 1):
+        c = c + n
+    return c
+
     
-test1 = add_numbers(1,2)
-print(test1)
-test2 = add_numbers(1, 100)
-print(test2)
-test3 = add_numbers(1000, 5000)
-print(test3)
